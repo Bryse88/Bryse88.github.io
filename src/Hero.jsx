@@ -11,7 +11,7 @@
    import githubLogo from './assets/github.png'; // GitHub logo image
    import linkedinLogo from './assets/ln.png'; // LinkedIn logo image
    import instagramLogo from './assets/insta.png'; // Instagram logo image
-   import headShot from './assets/cropped.png'; // Profile headshot
+   import headShot from './assets/Photo.png'; // Profile headshot
    
    export default function Hero() {
      // State to manage the current heading (e.g., 'Engineer', 'Designer', etc.)
