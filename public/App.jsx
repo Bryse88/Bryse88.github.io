@@ -1,0 +1,1 @@
+/* Acts as the main wrapper for your application. It renders child components like Hero, Content, and others */

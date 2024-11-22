@@ -1,0 +1,1 @@
+/* Entry point for the React app. It renders the App component into the root HTML element */

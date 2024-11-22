@@ -1,0 +1,1 @@
+/* A component for different sections, such as "About Me" or "Projects" */

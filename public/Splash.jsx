@@ -1,0 +1,1 @@
+/* Handles the splash/loading screen (if applicable) */

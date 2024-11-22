@@ -1,0 +1,1 @@
+/* A reusable component for the hero/banner section. Typically includes your name, title, and links */
