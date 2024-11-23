@@ -3,6 +3,7 @@ import Canvas from './splash/Canvas';
 import Nucleus from './splash/Nucleus';
 import Crest from './splash/Crest';
 
+
 const s = 100;
 const center = { x: s / 2, y: s / 2 };
 const circleColor = '#fff';
