@@ -6,11 +6,10 @@
    Experience, Projects, and Programs/Awards.
    ============================================ */
 
-import React from 'react';
-import spinertia from './assets/spinertia.png'; // Spinertia project icon
-import eye from './assets/nga.png'; // Geospatial project icon
-import steelbroncorobotics from './assets/SteelBroncoRobotics.png'; // Robotics project icon
-import epoch from './assets/lux.png'; // CUDA research project icon
+import steelbroncorobotics from './assets/SteelBroncoRobotics.png';
+import kaggle from './assets/Kaggle Photo.png'
+import seo from './assets/SEO.jpeg'
+
 
 export default function Content() {
   /* --------------------------------------------
@@ -41,6 +40,7 @@ export default function Content() {
           </div>
         </div>
       </div>
+
 
       {/* ============================================
             Experience Section
@@ -131,7 +131,7 @@ export default function Content() {
 
         <div className="experience-item">
           <div className="experience-item-intro">
-            <h6>2024</h6>
+            <h6>2022</h6>
           </div>
           <div className="experience-item-details">
             <h4>Cullen Construction Management</h4>
@@ -156,141 +156,83 @@ export default function Content() {
         <p className="section-title">Projects</p>
 
         <div className="experience-item">
-          <div className="icon-intro">
-            <img src={spinertia} alt="Spinertia Project" />
-          </div>
-          <div className="project-details">
-            <h4>FIDE & Google Efficient Chess AI Challenge</h4>
-            <h6>Technical Lead</h6>
-            <p>
-              Participating in the Kaggle competition, focusing on building a chess AI model that balances accuracy with computational efficiency.
-            </p>
-            <div className="skills-container">
-              <a className="skill-button">PyTorch</a>
-              <a className="skill-button">Chess AI Algorithem</a>
-              <a className="skill-button">Data Preprocessing</a>
-              <a className="skill-button">Big Data Handling</a>
-              <a className="skill-button">Python</a>
-            </div>
-          </div>
-        </div>
+                <div className="icon-intro">
+                  <img src={kaggle}/>
+                </div>
+                <div className="project-details">
+                  <h4>FIDE & Google Efficient Chess AI Challenge</h4>
+                  <h6>Technical Lead</h6>
+                  <p>
+                  Participating in the Kaggle competition, focusing on building a chess AI model that balances accuracy with computational efficiency.
+                  </p>
+                  <div className='link'>
+                    <a href='https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge'>Live↗</a>
+                    <a href='https://github.com/Bryse88'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">UI/UX</a>
+                    <a className="skill-button">HTML/CSS</a>
+                    <a className="skill-button">JS</a>
+                    <a className="skill-button">REACT</a>
+                    <a className="skill-button">PYTHON</a>
+                  </div>
+                </div>
+              </div>
 
+              <div className="experience-item">
+                <div className="icon-intro">
+                  <img src={seo}/>
+                </div>
+                <div className="project-details">
+                  <h4>SmartScheduler: AI-Powered Collaborative Calendar</h4>
+                  <h6>Software Engineer</h6>
+                  <p>
+                  <p>
+                    Designed and implemented an AI-powered collaborative calendar application, enabling real-time optimized scheduling for teams and individuals.
+                  </p>
+
+                  </p>
+                  <div className='link'>
+                    <a href='https://github.com/Bryse88'>Live↗</a>
+                    <a href='https://github.com/Bryse88'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">PyTorch</a>
+                    <a className="skill-button">HTML/CSS</a>
+                    <a className="skill-button">JavaScript</a>
+                    <a className="skill-button">UI/UX</a>
+                    <a className="skill-button">Google Cloud Platform</a>
+                    <a className="skill-button">AI/ML</a>
+                  </div>
+                </div>
+              </div>
+
+        
         <div className="experience-item">
-          <div className="icon-intro">
-            <img src={spinertia} alt="Spinertia Project" />
+                <div className="icon-intro">
+                  <img src={steelbroncorobotics}/>
+                </div>
+                <div className="project-details">
+                  <h4>Steel Bronco Robotics</h4>
+                  <h6>Vice President and Software Lead</h6>
+                  <p>
+                    Steel Bronco Robotics is a 501(c)(3) nonprofit organization that gives underprivileged students access to competitive robotics at the highest level. Engineering programs are nonexistent in the local school system, a void that the organization fills. 
+                    Served as software lead during the time autonomous movement, swerve drive, and vision were implemented. 
+                  </p>
+                  <div className='link'>
+                    <a href='https://www.steelbroncorobotics.com/'>Live↗</a>
+                    <a href='https://github.com/Bryse88/FRC_Swerve'>Github↗</a>
+                  </div>
+                  <div className="skills-container">
+                    <a className="skill-button">AI/ML</a>
+                    <a className="skill-button">IMAGE PROCESSING</a>
+                    <a className="skill-button">DATA ANALYSIS</a>
+                    <a className="skill-button">Java</a>
+                  </div>
+                </div>
+              </div>
           </div>
-          <div className="project-details">
-            <h4>SmartScheduler: AI-Powered Collaborative Calendar</h4>
-            <h6>Software Engineer</h6>
-            <p>
-              Participating in the Kaggle competition, focusing on building a chess AI model that balances accuracy with computational efficiency.
-            </p>
-            <div className="skills-container">
-              <a className="skill-button">PyTorch</a>
-              <a className="skill-button">HTML/CSS</a>
-              <a className="skill-button">JavaScript</a>
-              <a className="skill-button">UI/UX</a>
-              <a className="skill-button">Google Cloud Platform</a>
-              <a className="skill-button">AI/ML</a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      {/* ============================================
-            Programs & Awards Section
-            ============================================ */}
-      <div id="programs-awards" className="section">
-        <p className="section-title">Programs & Awards</p>
-
-        <div className="award-item">
-          <div className="award-item-intro">
-            <h6>2024</h6> {/* Time period */}
-          </div>
-          <div className="award-item-details">
-            <h4>Goldman Sachs</h4>
-            <h6>FICC and Equities Track</h6>
-            <p>
-              Selected for a competitive Goldman Sachs program, receiving mentorship and in-depth training in equities, fixed income, and derivatives.
-            </p>
-            {/* Skills Section */}
-            <div className="skills-container">
-              <a className="skill-button">Equities</a>
-              <a className="skill-button">Fixed Income</a>
-              <a className="skill-button">Derivatives</a>
-              <a className="skill-button">Market Analysis</a>
-              <a className="skill-button">Financial Modeling</a>
-              <a className="skill-button">Risk Management</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="award-item">
-          <div className="award-item-intro">
-            <h6>2024</h6> {/* Time period */}
-          </div>
-          <div className="award-item-details">
-            <h4>Goldman Sachs</h4>
-            <h6>FICC and Equities Track</h6>
-            <p>
-              Selected for a competitive Goldman Sachs program, receiving mentorship and in-depth training in equities, fixed income, and derivatives.
-            </p>
-            {/* Skills Section */}
-            <div className="skills-container">
-              <a className="skill-button">Equities</a>
-              <a className="skill-button">Fixed Income</a>
-              <a className="skill-button">Derivatives</a>
-              <a className="skill-button">Market Analysis</a>
-              <a className="skill-button">Financial Modeling</a>
-              <a className="skill-button">Risk Management</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="award-item">
-          <div className="award-item-intro">
-            <h6>2022 - 2023</h6> {/* Time period */}
-          </div>
-          <div className="award-item-details">
-            <h4>Steel Broncos Robotics</h4>
-            <h6>Founder & President</h6>
-            <p>
-              Founded and led a 501(c)(3) nonprofit robotics team, providing underprivileged students access to competitive robotics and STEM education. Successfully raised $15,000 in recurring sponsorships and expanded the program to serve over 30 students.
-            </p>
-            {/* Skills Section */}
-            <div className="skills-container">
-              <a className="skill-button">Leadership</a>
-              <a className="skill-button">Fundraising</a>
-              <a className="skill-button">STEM Outreach</a>
-              <a className="skill-button">Team Management</a>
-              <a className="skill-button">Robotics</a>
-              <a className="skill-button">Strategic Planning</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="award-item">
-          <div className="award-item-intro">
-            <h6>2024</h6> {/* Time period */}
-          </div>
-          <div className="award-item-details">
-            <h4>The Trevor Project</h4>
-            <h6>Crisis Counselor Volunteer</h6>
-            <p>
-              Provided critical support to LGBTQ+ youth as a volunteer crisis counselor. Delivered empathetic and professional assistance, ensuring the safety and well-being of individuals in crisis through active listening and tailored resources.
-            </p>
-            {/* Skills Section */}
-            <div className="skills-container">
-              <a className="skill-button">Crisis Management</a>
-              <a className="skill-button">Active Listening</a>
-              <a className="skill-button">Empathy</a>
-              <a className="skill-button">Conflict Resolution</a>
-              <a className="skill-button">Community Support</a>
-            </div>
-          </div>
-        </div>
-
-      </div>
     </div>
-  );
+  )
 }
