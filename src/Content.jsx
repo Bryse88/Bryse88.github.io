@@ -12,20 +12,11 @@ import seo from './assets/SEO.jpeg'
 
 
 export default function Content() {
-  /* --------------------------------------------
-     JSX Structure
-     - This component is divided into four 
-       main sections: Education, Experience, 
-       Projects, and Programs/Awards.
-     -------------------------------------------- */
   return (
     <div className="content">
 
-      {/* ============================================
-            Education Section
-            ============================================ */}
-      <div id="education" className="section">
-        <p className="section-title">Education</p>
+      <div id="education" className="education">
+        <p className="title">Education</p>
         <div className="school-item">
           <div className="school-item-intro">
             <h6>Present</h6> {/* Time period */}
