@@ -12,20 +12,12 @@ import seo from './assets/SEO.jpeg'
 
 
 export default function Content() {
-  /* --------------------------------------------
-     JSX Structure
-     - This component is divided into four 
-       main sections: Education, Experience, 
-       Projects, and Programs/Awards.
-     -------------------------------------------- */
   return (
     <div className="content">
 
-      {/* ============================================
-            Education Section
-            ============================================ */}
-      <div id="education" className="section">
-        <p className="section-title">Education</p>
+      <div id="education" className="education">
+        <p className="title">Education</p>
+
         <div className="school-item">
           <div className="school-item-intro">
             <h6>Present</h6> {/* Time period */}
@@ -46,7 +38,7 @@ export default function Content() {
             Experience Section
             ============================================ */}
       <div id="experience" className="section">
-        <p className="section-title">Experience</p>
+        <p className="experience-title">Experience</p>
 
         {/* Individual Experience Item */}
         <div className="experience-item">
@@ -152,86 +144,84 @@ export default function Content() {
       {/* ============================================
             Projects Section
             ============================================ */}
-      <div id="projects" className="section">
-        <p className="section-title">Projects</p>
+      <div id="project" className="section">
+        <h2 className="projects-header">Projects</h2>
 
-        <div className="experience-item">
-                <div className="icon-intro">
-                  <img src={kaggle}/>
-                </div>
-                <div className="project-details">
-                  <h4>FIDE & Google Efficient Chess AI Challenge</h4>
-                  <h6>Technical Lead</h6>
-                  <p>
-                  Participating in the Kaggle competition, focusing on building a chess AI model that balances accuracy with computational efficiency.
-                  </p>
-                  <div className='link'>
-                    <a href='https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge'>Live↗</a>
-                    <a href='https://github.com/Bryse88'>Github↗</a>
-                  </div>
-                  <div className="skills-container">
-                    <a className="skill-button">UI/UX</a>
-                    <a className="skill-button">HTML/CSS</a>
-                    <a className="skill-button">JS</a>
-                    <a className="skill-button">REACT</a>
-                    <a className="skill-button">PYTHON</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="experience-item">
-                <div className="icon-intro">
-                  <img src={seo}/>
-                </div>
-                <div className="project-details">
-                  <h4>SmartScheduler: AI-Powered Collaborative Calendar</h4>
-                  <h6>Software Engineer</h6>
-                  <p>
-                  <p>
-                    Designed and implemented an AI-powered collaborative calendar application, enabling real-time optimized scheduling for teams and individuals.
-                  </p>
-
-                  </p>
-                  <div className='link'>
-                    <a href='https://github.com/Bryse88'>Live↗</a>
-                    <a href='https://github.com/Bryse88'>Github↗</a>
-                  </div>
-                  <div className="skills-container">
-                    <a className="skill-button">PyTorch</a>
-                    <a className="skill-button">HTML/CSS</a>
-                    <a className="skill-button">JavaScript</a>
-                    <a className="skill-button">UI/UX</a>
-                    <a className="skill-button">Google Cloud Platform</a>
-                    <a className="skill-button">AI/ML</a>
-                  </div>
-                </div>
-              </div>
-
-        
-        <div className="experience-item">
-                <div className="icon-intro">
-                  <img src={steelbroncorobotics}/>
-                </div>
-                <div className="project-details">
-                  <h4>Steel Bronco Robotics</h4>
-                  <h6>Vice President and Software Lead</h6>
-                  <p>
-                    Steel Bronco Robotics is a 501(c)(3) nonprofit organization that gives underprivileged students access to competitive robotics at the highest level. Engineering programs are nonexistent in the local school system, a void that the organization fills. 
-                    Served as software lead during the time autonomous movement, swerve drive, and vision were implemented. 
-                  </p>
-                  <div className='link'>
-                    <a href='https://www.steelbroncorobotics.com/'>Live↗</a>
-                    <a href='https://github.com/Bryse88/FRC_Swerve'>Github↗</a>
-                  </div>
-                  <div className="skills-container">
-                    <a className="skill-button">AI/ML</a>
-                    <a className="skill-button">IMAGE PROCESSING</a>
-                    <a className="skill-button">DATA ANALYSIS</a>
-                    <a className="skill-button">Java</a>
-                  </div>
-                </div>
-              </div>
+        <div className="project-item">
+          <div className="icon-intro">
+            <img src={kaggle} />
           </div>
+          <div className="project-item-details">
+            <h4>FIDE & Google Efficient Chess AI Challenge</h4>
+            <h6>Technical Lead</h6>
+            <p>
+              Participating in the Kaggle competition, focusing on building a chess AI model that balances accuracy with computational efficiency.
+            </p>
+            <div className="link">
+              <a href="https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge">Live↗</a>
+              <a href="https://github.com/Bryse88">Github↗</a>
+            </div>
+            <div className="skills-container">
+              <a className="skill-button">UI/UX</a>
+              <a className="skill-button">HTML/CSS</a>
+              <a className="skill-button">JS</a>
+              <a className="skill-button">REACT</a>
+              <a className="skill-button">PYTHON</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="project-item">
+          <div className="icon-intro">
+            <img src={seo} />
+          </div>
+          <div className="project-item-details">
+            <h4>SmartScheduler: AI-Powered Collaborative Calendar</h4>
+            <h6>Software Engineer</h6>
+            <p>
+              Designed and implemented an AI-powered collaborative calendar application, enabling real-time optimized scheduling for teams and individuals.
+            </p>
+            <div className="link">
+              <a href="https://github.com/Bryse88">Live↗</a>
+              <a href="https://github.com/Bryse88">Github↗</a>
+            </div>
+            <div className="skills-container">
+              <a className="skill-button">PyTorch</a>
+              <a className="skill-button">HTML/CSS</a>
+              <a className="skill-button">JavaScript</a>
+              <a className="skill-button">UI/UX</a>
+              <a className="skill-button">Google Cloud Platform</a>
+              <a className="skill-button">AI/ML</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="project-item">
+          <div className="icon-intro">
+            <img src={steelbroncorobotics} />
+          </div>
+          <div className="project-item-details">
+            <h4>Steel Bronco Robotics</h4>
+            <h6>Vice President and Software Lead</h6>
+            <p>
+              Steel Bronco Robotics is a 501(c)(3) nonprofit organization that gives underprivileged students access to competitive robotics at the highest level. Engineering programs are nonexistent in the local school system, a void that the organization fills.
+              Served as software lead during the time autonomous movement, swerve drive, and vision were implemented.
+            </p>
+            <div className='link'>
+              <a href='https://www.steelbroncorobotics.com/'>Live↗</a>
+              <a href='https://github.com/Bryse88/FRC_Swerve'>Github↗</a>
+            </div>
+            <div className="skills-container">
+              <a className="skill-button">AI/ML</a>
+              <a className="skill-button">IMAGE PROCESSING</a>
+              <a className="skill-button">DATA ANALYSIS</a>
+              <a className="skill-button">Java</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   )
