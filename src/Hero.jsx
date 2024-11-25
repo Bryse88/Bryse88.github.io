@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 export default function Hero() {
   const [heading, setHeading] = useState('Engineer');
   useEffect(() => {
-    const headings = ['Creative', 'Engineer', 'Designer', 'Developer', 'Artist', 'Student', 'Learner', 'Problem Solver', 'Innovator', 'Collaborator', 'Leader', 'Mentor', 'Friend', 'Teammate', 'Volunteer', 'Advocate', 'Activist', 'Writer', 'Speaker', 'Musician', 'Dancer', 'Athlete', 'Explorer', 'Traveler', 'Photographer', 'Reader', 'Linguist', 'Polyglot', 'Human'];
+    const headings = ['Entrepenuer', 'Volunteer', 'Engineer', 'Developer', 'Designer', 'Volunteer', 'Runner', 'Catholic'];
     let i = 0;
     
     const changeHeading = () => {

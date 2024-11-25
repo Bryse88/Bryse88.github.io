@@ -76,7 +76,7 @@ body {
 	line-height: 0;		/* remove line-height */ 
 	display: inline-block;	/* circle wraps image */
 	margin: 5px;
-  border: 4px solid #da0bbe;;
+  border: 4px solid #234a4c;;
 	border-radius: 50%;	/* relative value */
 	/*box-shadow: 0px 0px 5px rgba(0,0,0,0.4);*/
 	transition: linear 0.25s;
@@ -377,96 +377,131 @@ a.hero-circle {
   
 
 
-/* Experience */
-.experience {
-  padding: 1em 0 0em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.experience-path .title{
-  color: rgba(255, 255, 255, 0.8);
-  margin-top: 0;
-}
-.experience-path .title2{
-  color: rgba(255, 255, 255, 0.8);
-  margin-top: 2em;
-}
-.experience-item {
-  margin: 1em 0;
-  align-items: center;
-  border-radius: 10px;
-  display: flex;
-  overflow: hidden;
-  width: 90%;
-  border-color: rgba(255, 255, 255, 0);
-  border-style: solid;
-  border-width: 2px;
-  padding: 1em;
-  height: auto;
-  transition: all 0.35s ease;
-}
-.experience-item:hover {
-  background-color: rgba(255, 255, 255, 0.025);
-  backdrop-filter: blur(20px);
-}
-.experience-item h6 {
-  opacity: 0.6;
-  margin: 0;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.experience-item-intro {
-  align-self: flex-start;
-  color: #fff;
-  padding-top: 5px;
-  padding-left: 10px;
-  width: 30%;
-}
-.experience-item-details {
-  padding: 0px 20px;
-  position: relative;
-  width: 100%;
-}
-.experience-item-details h4 {
-  padding: 0;
-  margin: 0 0 0.15em;
-  font-weight: 700;
-  opacity: 0.8;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-.experience-item:hover .experience-item-details h4 {
-  color: white;
-}
-.experience-item-details h6 {
-  opacity: 0.6;
-}
-.experience-item-details p {
-  opacity: 0.6;
-  font-size: 14px;
-}
-.skills-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5px;
-}
-.skill-button {
-  background-color: rgba(94, 234, 212, 0.1);
-  backdrop-filter: blur(20px);
-  display: inline-block;
-  padding: 2px 12px;
-  margin: 5px 0;
-  border-radius: 15px;
-  text-decoration: none;
-  color: #ffffff;
-  text-align: center;
-  font-size: 13px;
-}
-.skill-button:hover {
-  color: white;
-}
+/* ============================================
+   Experience Section CSS
+   - Clean layout
+   - Dynamic hover effects
+   - Tech-inspired style
+   ============================================ */
+
+   .experience {
+    padding: 2em 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0; /* Light text for contrast */
+  }
+  
+  .experience-path .title {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .experience-path .title2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    margin-top: 2em;
+  }
+  
+  .experience-item {
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: column; /* Stack content for clean alignment */
+    background: rgba(255, 255, 255, 0.05); /* Subtle background for contrast */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Slight border for separation */
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 1.5em;
+    width: 90%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add depth */
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-item:hover {
+    background: rgba(0, 200, 150, 0.1); /* Subtle green accent for hover */
+    box-shadow: 0px 6px 20px rgba(0, 200, 150, 0.5); /* Enhanced hover shadow */
+    transform: translateY(-5px); /* Lift effect for hover */
+  }
+  
+  .experience-item h6 {
+    opacity: 0.7;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a0a0a0; /* Subtle secondary text color */
+  }
+  
+  .experience-item-intro {
+    align-self: flex-start;
+    color: #00ff6a; /* Neon green for a tech-inspired highlight */
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .experience-item-details {
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  .experience-item-details h4 {
+    margin: 0 0 0.25em;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff; /* Bright white for focus */
+    transition: color 0.3s ease;
+  }
+  
+  .experience-item:hover .experience-item-details h4 {
+    color: #00ff6a; /* Highlight text on hover */
+  }
+  
+  .experience-item-details h6 {
+    opacity: 0.8;
+    font-size: 16px;
+    color: #cccccc;
+  }
+  
+  .experience-item-details p {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 1.5;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px; /* More spacing between skills */
+    margin-top: 10px;
+  }
+  
+  .skill-button {
+    background: rgba(116, 145, 140, 0.1); 
+    border: 1px solid rgba(9, 10, 10, 0.2); /* Border for separation */
+    backdrop-filter: blur(20px);
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px 0;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #ffffff; /* Neon green for futuristic look */
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-button:hover {
+    background: rgba(94, 234, 212, 0.1); /* Slightly darker hover effect */
+    color: white;
+    transform: scale(1.05); /* Subtle zoom effect */
+  }
+  
 
 /* resume */
 .resume {
