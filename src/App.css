@@ -292,68 +292,89 @@ a.hero-circle {
   font-size: 14px;
 }
 
-Education
-.education {
-  padding: 5em 0 0em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.school-item {
-  margin: 1em 0;
-  align-items: center;
-  border-radius: 10px;
-  display: flex;
-  overflow: hidden;
-  width: 90%;
-  border-color: rgba(255, 255, 255, 0);
-  border-style: solid;
-  border-width: 2px;
-  padding: 1em;
-  height: auto;
-  transition: all 0.35s ease;
-}
-.school-item:hover {
-  background-color: rgba(255, 255, 255, 0.025);
-  backdrop-filter: blur(20px);
-}
-.school-item h6 {
-  opacity: 0.6;
-  margin: 0;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.school-item-intro {
-  align-self: flex-start;
-  color: #fff;
-  padding-top: 5px;
-  padding-left: 10px;
-  width: 30%;
-}
-.school-item-details {
-  padding: 0px 20px;
-  position: relative;
-  width: 100%;
-}
-.school-item-details h4 {
-  padding: 0;
-  margin: 0 0 0.15em;
-  font-weight: 700;
-  opacity: 0.8;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-.school-item:hover .lesson-details h4 {
-  color: white;
-  /* Or any other color you prefer */
-}
-.school-item-details h6 {
-  opacity: 0.6;
-}
-.school-item-details p {
-  opacity: 0.6;
-  font-size: 14px;
-}
+/* ============================================
+   Education Section CSS
+   - Clean alignment
+   - Smooth hover effects
+   - Modern and tech-inspired style
+   ============================================ */
+
+   .education {
+    padding: 5em 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e0e0e0; /* Light text for dark background */
+  }
+  
+  .school-item {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column; /* Stack content for better alignment */
+    width: 85%;
+    background: rgba(255, 255, 255, 0.05); /* Subtle background color */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Transparent border */
+    border-radius: 12px; /* Smooth corners */
+    overflow: hidden;
+    padding: 1.5em;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .school-item:hover {
+    background: rgba(0, 200, 150, 0.1); /* Subtle accent hover color */
+    box-shadow: 0px 6px 20px rgba(0, 200, 150, 0.5);
+    transform: translateY(-5px); /* Lift effect */
+  }
+  
+  .school-item h6 {
+    opacity: 0.7;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a0a0a0; /* Subtle secondary text color */
+  }
+  
+  .school-item-intro {
+    align-self: flex-start;
+    color: #00ff6a; /* Neon green for tech-inspired dates */
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .school-item-details {
+    padding: 10px 20px;
+    width: 100%;
+  }
+  
+  .school-item-details h4 {
+    margin: 0 0 0.25em;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff; /* Bright white for focus */
+    transition: color 0.3s ease;
+  }
+  
+  .school-item:hover .school-item-details h4 {
+    color: #00ff6a; /* Highlight text on hover */
+  }
+  
+  .school-item-details h6 {
+    opacity: 0.8;
+    font-size: 16px;
+    color: #cccccc;
+  }
+  
+  .school-item-details p {
+    opacity: 0.7;
+    font-size: 14px;
+    color: #b3b3b3;
+    line-height: 1.5;
+  }
+  
 
 
 /* Experience */
