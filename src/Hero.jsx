@@ -1,14 +1,14 @@
 import githubLogo from './assets/github.png';
 import linkedinLogo from './assets/ln.png';
 import instagramLogo from './assets/insta.png';
-import headShot from './assets/Cropped1.jpg';
+import headShot from './assets/Photo.jpg';
 
 import { useState, useEffect } from 'react';
 
 export default function Hero() {
   const [heading, setHeading] = useState('Engineer');
   useEffect(() => {
-    const headings = ['Creative', 'Engineer', 'Designer', 'Developer', 'Artist', 'Student', 'Learner', 'Problem Solver', 'Innovator', 'Collaborator', 'Leader', 'Mentor', 'Friend', 'Teammate', 'Volunteer', 'Advocate', 'Activist', 'Writer', 'Speaker', 'Musician', 'Dancer', 'Athlete', 'Explorer', 'Traveler', 'Photographer', 'Reader', 'Linguist', 'Polyglot', 'Human'];
+    const headings = ['Entrepenuer', 'Volunteer', 'Engineer', 'Developer', 'Designer', 'Volunteer', 'Runner', 'Catholic'];
     let i = 0;
     
     const changeHeading = () => {
