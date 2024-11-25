@@ -17,7 +17,10 @@ export default function Content() {
 
       <div id="education" className="education">
         <p className="title">Education</p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
         <div className="school-item">
           <div className="school-item-intro">
             <h6>Present</h6> {/* Time period */}
