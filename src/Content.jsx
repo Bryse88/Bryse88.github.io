@@ -34,8 +34,8 @@ export default function Content() {
             <h4>University of Wisconsin-Madison</h4> {/* Institution name */}
             <h6>Computer Science, Data Science & Economics</h6>
             <p>
-              Activities & Societies: Innovation to Market 24', Ramp 100 24',
-              Capital Management Club, DLT, and The Daily Cardinal 23-24
+              Activities & Societies: Innovation to Market 24&#39;, Ramp 100 24&#39;,
+              Capital Management Club, DLT, and The Daily Cardinal 23-24&#39;
             </p>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function Content() {
         {/* Individual Experience Item */}
         <div className="experience-item">
           <div className="experience-item-intro">
-            <h6>2024 - 2025</h6> {/* Time period */}
+            <h6>2024</h6> {/* Time period */}
           </div>
           <div className="experience-item-details">
             <h4>Encite</h4>
@@ -68,6 +68,23 @@ export default function Content() {
               <a className="skill-button">Docker</a>
               <a className="skill-button">Python</a>
               <a className="skill-button">Dart</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="experience-item">
+          <div className="experience-item-intro">
+            <h6>2024</h6>
+          </div>
+          <div className="experience-item-details">
+            <h4>Yale School of Managment</h4>
+            <h6>Research Assistant</h6>
+            <p>
+              Data Coding and Analysis for Professor Jihae Shin&#39;s Lab at Yale SOM.
+            </p>
+            <div className="skills-container">
+              <a className="skill-button">Data Coding</a>
+              <a className="skill-button">Python</a>
             </div>
           </div>
         </div>
@@ -97,27 +114,10 @@ export default function Content() {
             <h6>2024</h6>
           </div>
           <div className="experience-item-details">
-            <h4>Yale School of Managment</h4>
-            <h6>Research Assistant</h6>
-            <p>
-              Completed 300+ hours of training in data structures, algorithms, full-stack web development, and neural networks.
-            </p>
-            <div className="skills-container">
-              <a className="skill-button">Data Coding</a>
-              <a className="skill-button">Python</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="experience-item">
-          <div className="experience-item-intro">
-            <h6>2024</h6>
-          </div>
-          <div className="experience-item-details">
             <h4>PwC</h4>
             <h6>Nonprofit Consulting Extern</h6>
             <p>
-              Collaborated with PwC's team to provide strategic solutions for Kiva's ambassador program.
+              Collaborated with PwC&#39;s team to provide strategic solutions for Kiva&#39;s ambassador program.
             </p>
             <div className="skills-container">
               <a className="skill-button">Excel</a>

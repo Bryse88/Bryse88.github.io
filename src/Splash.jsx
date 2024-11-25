@@ -18,7 +18,7 @@ const crests = [
 ];
 
 const styles = {
-  backgroundColor: '#0f172a',
+  backgroundColor: '#0F0F10',
   height: '100vh',
 };
 
