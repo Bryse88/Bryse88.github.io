@@ -41,6 +41,23 @@
            <p className="experience-title">Experience</p>
    
            {/* Individual Experience Item */}
+
+           <div className="experience-item">
+             <div className="experience-item-intro">
+               <h6>2024</h6> {/* Time period */}
+             </div>
+             <div className="experience-item-details">
+               <h4>Stealth</h4>
+               <h6>AI Architect</h6>
+               <p>
+                 Designing and implementing the data processing pipeline and back end api for legal startup. 
+               </p>
+               <div className="skills-container">
+                 <a className="skill-button">Git</a>
+               </div>
+             </div>
+           </div>
+
            <div className="experience-item">
              <div className="experience-item-intro">
                <h6>2024</h6> {/* Time period */}
