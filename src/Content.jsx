@@ -50,7 +50,7 @@
                <h4>Stealth</h4>
                <h6>Uknown</h6>
                <p>
-                 Designing and implementing architecture.
+                 Designing and implementing architecture
                </p>
                <div className="skills-container">
                  <a className="skill-button">Git</a>
