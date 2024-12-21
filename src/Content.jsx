@@ -48,7 +48,7 @@
              </div>
              <div className="experience-item-details">
                <h4>Stealth</h4>
-               <h6>AI Architect</h6>
+               <h6>Architect</h6>
                <p>
                  Designing and implementing the data processing pipeline and back end api for legal startup. 
                </p>
