@@ -36,7 +36,7 @@ export default function Hero() {
         <div className="menu">
           <a className="menu-item active" href="#education">Education</a>
           <a className="menu-item" href="#experience">Experience</a>
-          <a className="menu-item" href="#projects">Projects</a>
+          <a className="menu-item" href="#project">Projects</a>
         </div>
 
         <div className="social">
