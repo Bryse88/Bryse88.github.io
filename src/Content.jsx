@@ -48,9 +48,9 @@
              </div>
              <div className="experience-item-details">
                <h4>Stealth</h4>
-               <h6>Uknown</h6>
+               <h6>AI Architect</h6>
                <p>
-                 Designing and implementing architecture
+                 Designing and implementing architecture for steal startup. 
                </p>
                <div className="skills-container">
                  <a className="skill-button">Git</a>
