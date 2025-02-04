@@ -44,13 +44,30 @@
 
            <div className="experience-item">
              <div className="experience-item-intro">
+               <h6>2025</h6> {/* Time period */}
+             </div>
+             <div className="experience-item-details">
+               <h4>CDK Global</h4>
+               <h6>Incoming Software Engineering Intern</h6>
+               <p>
+                 Summer 2025
+               </p>
+               <div className="skills-container">
+                 <a className="skill-button">Python</a>
+                 <a className="skill-button">Dart</a>
+               </div>
+             </div>
+           </div>
+
+           <div className="experience-item">
+             <div className="experience-item-intro">
                <h6>2024</h6> {/* Time period */}
              </div>
              <div className="experience-item-details">
                <h4>Stealth</h4>
                <h6>Architect</h6>
                <p>
-                 Designing and implementing architecture for steal startup. 
+                Designing system architecture using microservices and vector databases for stealth startup
                </p>
                <div className="skills-container">
                  <a className="skill-button">Git</a>
