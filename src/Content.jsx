@@ -65,7 +65,7 @@
              </div>
              <div className="experience-item-details">
                <h4>Stealth</h4>
-               <h6>Architect</h6>
+               <h6>Software Engineer</h6>
                <p>
                 Designing system architecture using microservices and vector databases for stealth startup
                </p>
