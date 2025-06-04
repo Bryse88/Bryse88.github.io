@@ -96,8 +96,9 @@
                <h4>Encite</h4>
                <h6>Founder</h6>
                <p>
-                 Building Multimodal Architecture utilizing Heterogeneous Graph Transformer(HGT) -> Two Tower Retrieval Model -> PPO Based Reinforcement Learning Scheduler
+                  Building Multimodal Architecture utilizing Heterogeneous Graph Transformer(HGT) &gt; Two Tower Retrieval Model &gt; PPO Based Reinforcement Learning Scheduler
                </p>
+
                <div className="skills-container">
                  <a className="skill-button">Transformer Model</a>
                  <a className="skill-button">PyTorch</a>
