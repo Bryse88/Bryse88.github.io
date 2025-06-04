@@ -1,7 +1,7 @@
 import githubLogo from './assets/github.png';
 import linkedinLogo from './assets/ln.png';
 import instagramLogo from './assets/insta.png';
-import headShot from './assets/Photo.jpg';
+import headShot from './assets/profile_ai.png';
 
 import { useState, useEffect } from 'react';
 
