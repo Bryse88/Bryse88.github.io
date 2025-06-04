@@ -167,25 +167,6 @@
                </div>
              </div>
            </div>
-   
-           <div className="experience-item">
-             <div className="experience-item-intro">
-               <h6>2022</h6>
-             </div>
-             <div className="experience-item-details">
-               <h4>Cullen Construction Management</h4>
-               <h6>Data Science Internship</h6>
-               <p>
-                 Developed data governance and analysis solutions to optimize project workflows.
-               </p>
-               <div className="skills-container">
-                 <a className="skill-button">Excel</a>
-                 <a className="skill-button">PowerPoint</a>
-                 <a className="skill-button">Data Analysis</a>
-                 <a className="skill-button">Data Governance</a>
-               </div>
-             </div>
-           </div>
          </div>
    
          {/* ============================================
