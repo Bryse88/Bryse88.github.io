@@ -25,10 +25,6 @@
              <div className="school-item-details">
                <h4>University of Wisconsin-Madison</h4> {/* Institution name */}
                <h6>Computer Science, Data Science & Economics</h6>
-               <p>
-                 Activities & Societies: Innovation to Market 24&#39;, Ramp 100 24&#39;,
-                 Capital Management Club, DLT, and The Daily Cardinal 23-24&#39;
-               </p>
              </div>
            </div>
          </div>
@@ -42,13 +38,30 @@
    
            {/* Individual Experience Item */}
 
+         <div className="experience-item">
+             <div className="experience-item-intro">
+               <h6>2025</h6> {/* Time period */}
+             </div>
+             <div className="experience-item-details">
+               <h4>Microsoft and Ramirez Asset Management</h4>
+               <h6>Data Systems and Analytics Fellow</h6>
+               <p>
+                 Fall 2025
+               </p>
+               <div className="skills-container">
+                 <a className="skill-button">Python</a>
+                 <a className="skill-button">Dart</a>
+               </div>
+             </div>
+           </div>
+
            <div className="experience-item">
              <div className="experience-item-intro">
                <h6>2025</h6> {/* Time period */}
              </div>
              <div className="experience-item-details">
                <h4>CDK Global</h4>
-               <h6>Incoming Software Engineering Intern</h6>
+               <h6>Software Engineering Intern</h6>
                <p>
                  Summer 2025
                </p>
@@ -61,7 +74,7 @@
 
            <div className="experience-item">
              <div className="experience-item-intro">
-               <h6>2024</h6> {/* Time period */}
+               <h6>2025</h6> {/* Time period */}
              </div>
              <div className="experience-item-details">
                <h4>Stealth</h4>
@@ -77,14 +90,13 @@
 
            <div className="experience-item">
              <div className="experience-item-intro">
-               <h6>2024</h6> {/* Time period */}
+               <h6>2025</h6> {/* Time period */}
              </div>
              <div className="experience-item-details">
                <h4>Encite</h4>
                <h6>Founder</h6>
                <p>
-                 Built a mobile application to create optimized schedules based on preferences and external factors.
-                 Leveraged a Transformer Model, GCP, and Flutter. Part of UW-Madison D2P for Market Research and Google Cloud for Startups.
+                 Building Multimodal Architecture utilizing Heterogeneous Graph Transformer(HGT) -> Two Tower Retrieval Model -> PPO Based Reinforcement Learning Scheduler
                </p>
                <div className="skills-container">
                  <a className="skill-button">Transformer Model</a>
