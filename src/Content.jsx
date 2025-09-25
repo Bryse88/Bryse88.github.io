@@ -44,7 +44,7 @@
              </div>
              <div className="experience-item-details">
                <h4>Microsoft and Ramirez Asset Management</h4>
-               <h6>Data Systems and Analytics Fellow</h6>
+               <h6>Quantitative Analyst Fellow</h6>
                <p>
                  Fall 2025
                </p>
