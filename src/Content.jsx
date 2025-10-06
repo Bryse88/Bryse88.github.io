@@ -90,6 +90,9 @@
                </p>
                <div className="skills-container">
                  <a className="skill-button">Git</a>
+                 <a className="skill-button">Pinecone</a>
+                 <a className="skill-button">Gemini</a>
+                 <a className="skill-button">Hugging Face Transformers</a>
                </div>
              </div>
            </div>
