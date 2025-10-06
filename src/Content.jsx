@@ -24,7 +24,7 @@
              </div>
              <div className="school-item-details">
                <h4>University of Wisconsin-Madison</h4> {/* Institution name */}
-               <h6>Computer Science, Data Science & Economics</h6>
+               <h6>Computer Science & Economics</h6>
              </div>
            </div>
          </div>
@@ -49,8 +49,11 @@
                  Fall 2025
                </p>
                <div className="skills-container">
-                 <a className="skill-button">Python</a>
-                 <a className="skill-button">Dart</a>
+                 <a className="skill-button">Quantitative Research & Modeling</a>
+                 <a className="skill-button">Metalog Distribution</a>
+                 <a className="skill-button">Bloomberg Terminal (BLPAPI)</a>
+                 <a className="skill-button">Statistical Fitting & Regression Analysis</a>
+                 <a className="skill-button">Data Visualization</a>
                </div>
              </div>
            </div>
