@@ -71,6 +71,9 @@
                <div className="skills-container">
                  <a className="skill-button">Python</a>
                  <a className="skill-button">Dart</a>
+                 <a className="skill-button">TensorFlow</a>
+                 <a className="skill-button">Apple Vision Framework</a>
+                 <a className="skill-button">Ollama</a>
                </div>
              </div>
            </div>
