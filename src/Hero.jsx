@@ -2,6 +2,7 @@ import githubLogo from './assets/github.png';
 import linkedinLogo from './assets/ln.png';
 import instagramLogo from './assets/insta.png';
 import headShot from './assets/profile_ai.png';
+import substack from './assets/substack.png'
 
 import { useState, useEffect } from 'react';
 
@@ -48,6 +49,9 @@ export default function Hero() {
           </a>
           <a href="https://www.instagram.com/bryse_t/" target="_blank" rel="noopener noreferrer">
             <img className="i" src={instagramLogo} alt="Instagram Link" />
+          </a>
+          <a href="https://brysonturner.substack.com/" target="_blank" rel="noopener noreferrer">
+            <img className="s" src={substack} alt="Substack Link" />
           </a>
         </div>
       </div>
