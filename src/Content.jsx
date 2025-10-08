@@ -9,6 +9,7 @@
    import steelbroncorobotics from './assets/SteelBroncoRobotics.png';
    import kaggle from './assets/Kaggle Photo.png'
    import seo from './assets/SEO.jpeg'
+   import mentraos from './assets/mentraos.jpeg'
    
    
    export default function Content() {
@@ -186,23 +187,23 @@
    
            <div className="project-item">
              <div className="icon-intro">
-               <img src={kaggle} />
+               <img src={mentraos} />
              </div>
              <div className="project-item-details">
-               <h4>FIDE & Google Efficient Chess AI Challenge</h4>
-               <h6>Technical Lead</h6>
+               <h4>HackMIT Project - MomentoAI</h4>
+               <h6>Backend Engineer</h6>
                <p>
-                 Participating in the Kaggle competition, focusing on building a chess AI model that balances accuracy with computational efficiency.
+                 MomentoAI is an intelligent memory and research assistant that helps users recall people, conversations, and context through multimodal data — voice, text, and images. The system combines perception, reasoning, and retrieval to build a personal “second brain.”
                </p>
                <div className="link">
                  <a href="https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge">Live↗</a>
                  <a href="https://github.com/Bryse88">Github↗</a>
                </div>
                <div className="skills-container">
-                 <a className="skill-button">UI/UX</a>
-                 <a className="skill-button">HTML/CSS</a>
-                 <a className="skill-button">JS</a>
-                 <a className="skill-button">REACT</a>
+                 <a className="skill-button">GCP Vertex AI</a>
+                 <a className="skill-button">Firebase</a>
+                 <a className="skill-button">Sementic Search</a>
+                 <a className="skill-button">MentraOS</a>
                  <a className="skill-button">PYTHON</a>
                </div>
              </div>
