@@ -64,10 +64,30 @@
                <h6>2025</h6> {/* Time period */}
              </div>
              <div className="experience-item-details">
+               <h4>Stealth Startup</h4>
+               <h6>Software Engineering</h6>
+               <p>
+                 Orchestration technology
+               </p>
+               <div className="skills-container">
+                 <a className="skill-button">Python</a>
+                 <a className="skill-button">Dart</a>
+                 <a className="skill-button">TensorFlow</a>
+                 <a className="skill-button">Apple Vision Framework</a>
+                 <a className="skill-button">Ollama</a>
+               </div>
+             </div>
+           </div>
+
+           <div className="experience-item">
+             <div className="experience-item-intro">
+               <h6>2025</h6> {/* Time period */}
+             </div>
+             <div className="experience-item-details">
                <h4>CDK Global</h4>
                <h6>Software Engineering Intern</h6>
                <p>
-                 Summer 2025
+                 Developed modular Flutter libraries, image optimization pipeline for vehicle identifcation number recognition, and LLM-powered email triage system using Ollama and Mistral.
                </p>
                <div className="skills-container">
                  <a className="skill-button">Python</a>
@@ -196,8 +216,7 @@
                  MomentoAI is an intelligent memory and research assistant that helps users recall people, conversations, and context through multimodal data — voice, text, and images. The system combines perception, reasoning, and retrieval to build a personal “second brain.”
                </p>
                <div className="link">
-                 <a href="https://www.kaggle.com/competitions/fide-google-efficiency-chess-ai-challenge">Live↗</a>
-                 <a href="https://github.com/Bryse88">Github↗</a>
+                 <a href="https://github.com/akshaya0A/MementoAI">Github↗</a>
                </div>
                <div className="skills-container">
                  <a className="skill-button">GCP Vertex AI</a>
