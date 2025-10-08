@@ -2,7 +2,7 @@ import githubLogo from './assets/github.png';
 import linkedinLogo from './assets/ln.png';
 import instagramLogo from './assets/insta.png';
 import headShot from './assets/profile_ai.png';
-import substack from './assets/substack.png'
+import substack from './assets/substack1.png'
 
 import { useState, useEffect } from 'react';
 
