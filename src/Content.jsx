@@ -41,6 +41,24 @@
 
          <div className="experience-item">
              <div className="experience-item-intro">
+               <h6>2026</h6> {/* Time period */}
+             </div>
+             <div className="experience-item-details">
+               <h4>Gradient Systems LLC</h4>
+               <h6>FOUNDER & LEAD ENGINEER</h6>
+               <p>
+                 Building EverOS — delivering structured intelligence from unknown sensors in contested environments. Collaborating with UW-Madison N+1 Institute Edge Computing Lab. Backed by 1517 Fund Medici Grant and NVIDIA Inception Member.
+               </p>
+               <div className="skills-container">
+                 <a className="skill-button">Rust</a>
+                 <a className="skill-button">Python</a>
+                 <a className="skill-button">TensorRT</a>
+               </div>
+             </div>
+           </div>
+
+         <div className="experience-item">
+             <div className="experience-item-intro">
                <h6>2025</h6> {/* Time period */}
              </div>
              <div className="experience-item-details">
@@ -104,25 +122,6 @@
                <h6>2025</h6> {/* Time period */}
              </div>
              <div className="experience-item-details">
-               <h4>Stealth</h4>
-               <h6>Software Engineer</h6>
-               <p>
-                Designing system architecture using microservices and vector databases for stealth startup
-               </p>
-               <div className="skills-container">
-                 <a className="skill-button">Git</a>
-                 <a className="skill-button">Pinecone</a>
-                 <a className="skill-button">Gemini</a>
-                 <a className="skill-button">Hugging Face Transformers</a>
-               </div>
-             </div>
-           </div>
-
-           <div className="experience-item">
-             <div className="experience-item-intro">
-               <h6>2025</h6> {/* Time period */}
-             </div>
-             <div className="experience-item-details">
                <h4>Encite</h4>
                <h6>Founder</h6>
                <p>
@@ -158,45 +157,6 @@
              </div>
            </div>
    
-           <div className="experience-item">
-             <div className="experience-item-intro">
-               <h6>2024</h6>
-             </div>
-             <div className="experience-item-details">
-               <h4>SEO</h4>
-               <h6>Software Engineering Intern</h6>
-               <p>
-                 Completed 300+ hours of training in data structures, algorithms, full-stack web development, and neural networks.
-               </p>
-               <div className="skills-container">
-                 <a className="skill-button">PyTorch</a>
-                 <a className="skill-button">Python</a>
-                 <a className="skill-button">SQL</a>
-                 <a className="skill-button">HTML</a>
-                 <a className="skill-button">Linux</a>
-               </div>
-             </div>
-           </div>
-   
-           <div className="experience-item">
-             <div className="experience-item-intro">
-               <h6>2024</h6>
-             </div>
-             <div className="experience-item-details">
-               <h4>PwC</h4>
-               <h6>Nonprofit Consulting Extern</h6>
-               <p>
-                 Collaborated with PwC&#39;s team to provide strategic solutions for Kiva&#39;s ambassador program.
-               </p>
-               <div className="skills-container">
-                 <a className="skill-button">Excel</a>
-                 <a className="skill-button">PowerPoint</a>
-                 <a className="skill-button">MySQL</a>
-                 <a className="skill-button">Tableau</a>
-                 <a className="skill-button">Market Research</a>
-               </div>
-             </div>
-           </div>
          </div>
    
          {/* ============================================
