@@ -239,7 +239,55 @@
              </div>
            </div>
          </div>
-   
+
+         {/* ============================================
+               Hardware & CAD Section
+               ============================================ */}
+         <div id="hardware" className="section">
+           <h2 className="projects-header">Hardware &amp; CAD</h2>
+
+           <div className="project-item">
+             <div className="icon-intro gallery">
+               <img src="/images/cad/everos-jetson-carrier.png" alt="EverOS Jetson carrier enclosure CAD render (Fusion 360)" />
+               <img src="/images/cad/everos-drone-assembled.jpeg" alt="EverOS drone with assembled sensor enclosure" />
+               <img src="/images/cad/everos-drone-build.jpeg" alt="EverOS drone enclosure during build" />
+             </div>
+             <div className="project-item-details">
+               <h4>EverOS Sensor Enclosures</h4>
+               <h6>Founder — Gradient Systems LLC</h6>
+               <p>
+                 Custom drone platform and sensor enclosures designed in Fusion 360 as part of the EverOS hardware stack at Gradient Systems — an NVIDIA Inception member. Built around NVIDIA edge compute, including the Jetson Orin Nano shown above, paired with IP camera payloads for structured intelligence in contested environments.
+               </p>
+               <div className="skills-container">
+                 <a className="skill-button">Fusion 360</a>
+                 <a className="skill-button">Drone Platform</a>
+                 <a className="skill-button">Jetson Orin Nano</a>
+                 <a className="skill-button">NVIDIA Inception</a>
+                 <a className="skill-button">Edge Hardware</a>
+               </div>
+             </div>
+           </div>
+
+           <div className="project-item">
+             <div className="icon-intro">
+               <img src="/images/cad/steel-broncos-8029.jpg" alt="FRC Team 8029 Steel Broncos competition robot" />
+             </div>
+             <div className="project-item-details">
+               <h4>Steel Bronco Robotics</h4>
+               <h6>Electronics Packaging &amp; CAD</h6>
+               <p>
+                 Designed electronics packaging in Fusion 360 — component mounting, wiring routes, and signal paths planned alongside the mechanical structure of the robot. Multi-season work across competition seasons.
+               </p>
+               <div className="skills-container">
+                 <a className="skill-button">Fusion 360</a>
+                 <a className="skill-button">Electrical Design</a>
+                 <a className="skill-button">Electronics Packaging</a>
+                 <a className="skill-button">Wire Routing</a>
+               </div>
+             </div>
+           </div>
+         </div>
+
        </div>
      )
    }

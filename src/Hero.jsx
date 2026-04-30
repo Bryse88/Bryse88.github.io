@@ -38,6 +38,7 @@ export default function Hero() {
           <a className="menu-item active" href="#education">Education</a>
           <a className="menu-item" href="#experience">Experience</a>
           <a className="menu-item" href="#project">Projects</a>
+          <a className="menu-item" href="#hardware">Hardware &amp; CAD</a>
         </div>
 
         <div className="social">
