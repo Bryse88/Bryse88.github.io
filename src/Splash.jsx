@@ -21,13 +21,13 @@ import LoadingDots from './splash/LoadingDots'; // Animated dots component
 // Configuration Constants
 const s = 100; // Base size for the canvas
 const dotSize = 20; // Size of individual dots
-const dotColor = '#02bbf8'; // Dot color (white)
+const dotColor = '#8b8e94'; // Dot color (muted gray)
 const dotSpacing = 10; // Spacing between dots
 const animationDuration = 0.8; // Duration of one animation cycle
 
 // Inline styles for the splash screen container
 const styles = {
-  backgroundColor: '#0F0F10', // Dark futuristic background
+  backgroundColor: '#16181b', // Match main background
   height: '100vh', // Full viewport height
 };
 
