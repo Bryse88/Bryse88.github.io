@@ -28,7 +28,6 @@ export default function Hero() {
         <a href="https://github.com/Bryse88" target="_blank" rel="noopener noreferrer">Github</a>
         <a href="https://www.linkedin.com/in/bryson-turner/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://www.instagram.com/bryse_t/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://brysonturner.substack.com/" target="_blank" rel="noopener noreferrer">Substack</a>
       </div>
     </div>
   );
